@@ -32,4 +32,9 @@ sum+=each;
     return acc+v;
  }
 
+ //Non-number inputs
+//let numOr0 = n => isNaN(n) ? 0 : n;
+//const sum=["hi", 1, 2,3,4, "string"].reduce((a, b) => 
+//numOr0(a) + numOr0(b));
+
 document.getElementById("result").innerHTML=sum;
